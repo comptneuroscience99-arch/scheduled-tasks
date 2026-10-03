@@ -15,19 +15,19 @@ WHICH_LETTER = ['letter_templates/letter_1.txt', 'letter_templates/letter_2.txt'
 
 # 1. Update the birthdays.csv
 
-update = input('Do you want to update? Type "Y" for yes' ).lower()
+# update = input('Do you want to update? Type "Y" for yes' ).lower()
 
-if update == 'y':
-    name = input("Who's birthday to wish? " )
-    email = input('And their email? ' )
-    year = int(input('Not really important but which year? '))
-    month = int(input('The month (in numbers, please!)? '))
-    day = int(input('Which day? '))
+# if update == 'y':
+#     name = input("Who's birthday to wish? " )
+#     email = input('And their email? ' )
+#     year = int(input('Not really important but which year? '))
+#     month = int(input('The month (in numbers, please!)? '))
+#     day = int(input('Which day? '))
 
-    new_text = f'{name},{email},{year},{month},{day}\n'
+#     new_text = f'{name},{email},{year},{month},{day}\n'
 
-    with open('birthdays.csv', 'a') as file:
-        file.write(new_text)
+#     with open('birthdays.csv', 'a') as file:
+#         file.write(new_text)
 
 
 
